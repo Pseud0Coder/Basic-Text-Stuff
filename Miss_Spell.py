@@ -1,13 +1,13 @@
-#make sure you have the ingredients to bake the cake. Use pip or !pip (for cloud environments) to download the modules. 
+# make sure you have the ingredients to bake the cake. Use pip or !pip (for cloud environments) to download the modules. 
 
 import os
 from textblob import TextBlob
 from PyPDF2 import PdfReader
 
-#get that file
+# get that file
 file_path = 'path/to/file.pdf'
 
-#now you can define... 'stuff' ()
+# now you can define... 'stuff' ()
 
 def correct_spelling(file_path):
     try:
